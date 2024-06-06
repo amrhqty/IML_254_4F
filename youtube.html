@@ -1,0 +1,184 @@
+<html> 
+<head>
+ <link rel="stylesheet" href="resource/css/style.css" 
+type="text/css">
+
+
+<title> YouTube </title> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+</head>
+<body>
+
+<div class="topnav">
+        <a href="index.html"> Homepage </a> 
+	<a href="intro.html"> Intro </a> 
+	<a href="music.html"> Music </a> 
+	<a href="youtube.html"> Youtube </a>
+	<a href="game.html"> Game </a>
+	<a href="friends.html"> Friends </a> 
+	<a href="thoughts.html"> Thoughts </a> 
+</div>
+
+
+<h1 style= "font-family: Motley Forces; color:#78BD83; text-align: center;"> Y o u t u b e  
+૮ ˶ᵔ ᵕ ᵔ˶ ა </h1>   
+
+<center> 
+<marquee width="60%" direction="down" height="100px">
+"Did you tell me you eat your food without watching spongebob or upin-ipin? Like seriously? How? Why? Don't you feel bored?" 
+</marquee>
+
+
+
+<br><br><br><br>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="resource/image/pokro1.jpg" style="width:50%">
+  <div class="text"> Pokro's Image (1) </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="resource/image/pokro3.jpg" style="width:50%">
+  <div class="text">Pokro's Image (2)</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="resource/image/pokro2.jpg" style="width:50%">
+  <div class="text">Pokro's Image (3)</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<br><br>
+
+<p style ="text-align:left ; font-family: Bahnschrift SemiBold; padding: 2px 30px;"> This is the story of how I know Pokro. At first, my younger brother watched Pokro during the PKP. But I was like "Nuh uh, no time for that" as I was an SPM student. Until I finished my SPM and it was during Ramadhan and I couldn't sleep. Then I remember I sometimes see Pokro's video on TikTok from time to time. That's when I started being curious to watch. But there were many videos. I couldn't decide which one to watch because most of them were horror games. And I wasn't a fan of horror.  However, I suddenly remembered that my mom used to play a game called Resident Evil when she was still young. Because of that reason, I choose to give it a try by watching Pokro play Resident Evil. </p>
+<br><br> 
+<p style ="text-align:left ; font-family: Bahnschrift SemiBold; padding: 2px 30px;"> That's the start of my journey with Pokro's YouTube channel. I followed his livestream after that and until today. And I realized that when I watch him play horror games, the horror game suddenly feels less scary. I will say he has a personality where I feel comfortable and fun to watch until the end.  </p>
+
+<br><br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xI8-2NSED2k?si=Rb-WATawgQNi7_9B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<br>
+
+<p style ="text-align:left ; font-family: Bahnschrift SemiBold; padding: 2px 30px;"> He also played with his friends from time to time and they were all funny and chaotic.  </p>
+
+<div class= "Frame1">
+  <style="text-align: center;">
+    <img src="resource/image/pokro5.jpg" style="width: 40%; float: center;">
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="footer">
+<center>
+<a href="intro.html"> Intro </a> |
+	<a href="music.html"> Music </a> |
+	<a href="youtube.html"> Youtube </a> |
+	<a href="game.html"> Game </a> |
+	<a href="friends.html"> Friends </a> |
+	<a href="thoughts.html"> Thoughts </a> |
+<p style=" color:#DAF7A6; font-family: HoloLens MDL2 Assets"> No taking picture please.</P> 
+<p style=" color:#ffffff; font-family: HoloLens MDL2 Assets"> © Siti Nur Amirah | 2024 </P> 
+</div>
+
+</body> 
+</html>
